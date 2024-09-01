@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  padding: 2rem;
+  background-color: rgb(0, 0, 0);
+}
+
+.git:hover,
+.linkedIn:hover,
+.insta:hover {
+  font-size: 35px;
+  box-shadow: 0 2px 33px 0 rgb(143, 137, 27);
+  transition: font-size 0.3s ease, box-shadow 0.3s ease;
+}

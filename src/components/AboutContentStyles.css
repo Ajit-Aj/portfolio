@@ -1,0 +1,77 @@
+.about {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.about .left {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 350px;
+}
+
+.about .left p {
+  margin: 1.2rem 0;
+}
+
+.technologies {
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  max-width: 450px;
+}
+
+.technologies-head{
+    margin: 5%;
+    /* box-shadow: 0 2px 33px 0 rgb(143, 137, 27); */
+}
+
+.technology-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.technology-card {
+
+  box-shadow: 0 2px 33px 0 rgb(143, 137, 27);
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  animation: shake 2s infinite;
+}
+
+
+.technology-card:hover {
+  transform: scale(1.05);
+}
+
+.technology-card img {
+  max-width: 80px;
+  max-height: 80px;
+
+}
+
+@keyframes shake {
+  10% {
+    transform: scale(1.05) rotate(5deg);
+  }
+  20% {
+    transform: scale(1.05) rotate(-1deg);
+  }
+  30% {
+    transform: scale(1.05) rotate(5deg);
+  }
+  40% {
+    transform: none;
+  }
+}
